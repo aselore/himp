@@ -5,23 +5,19 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           himp
-version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/himp#readme>
-homepage:       https://github.com/githubuser/himp#readme
-bug-reports:    https://github.com/githubuser/himp/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2022 Author name here
-license:        BSD3
-license-file:   LICENSE
+version:        0.0.0.1
+description:    Haskell Image Manipulation Program
+homepage:       https://github.com/aselore/himp#readme
+bug-reports:    https://github.com/aselore/himp/issues
+author:         Aselore
+maintainer:     igor@aselore.com
+copyright:      2022 Aselore
+license:        MIT
 build-type:     Simple
-extra-source-files:
-    README.md
-    CHANGELOG.md
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/himp
+  location: https://github.com/aselore/himp
 
 library
   exposed-modules:
